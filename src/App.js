@@ -1,8 +1,12 @@
+import Home from "./Home";
 import "./styles/GlobalStyles.scss";
-import Header from "./Componentes/Header";
 
 function App() {
-  return <Header />;
+  return (
+    <>
+      <Home />
+    </>
+  );
 }
 
 export default App;
