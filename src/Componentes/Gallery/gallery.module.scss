@@ -1,0 +1,21 @@
+@import "../../styles/variaveis";
+
+
+
+.galeria {
+    font-family: $font-principal;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 17%;
+    margin-top: 1rem;
+    flex-direction: column;
+
+    h2 {
+        color: $purple;
+        font-size: 24px;
+    }
+
+
+}

@@ -1,10 +1,11 @@
 import React from "react";
+import styles from "./tags.module.scss"
 
 function Tags(){
     return(
-        <div>
+        <div className={styles.tags}>
             <p>Busque por tags:</p>
-            <ul>
+            <ul className={styles.tags__list}>
                 <li>Estrelas</li>
                 <li>Galáxias</li>
                 <li>Lua</li>
