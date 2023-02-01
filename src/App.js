@@ -1,5 +1,8 @@
+import "./styles/GlobalStyles.scss";
+import Header from "./Componentes/Header";
+
 function App() {
-  return <h1>Space</h1>;
+  return <Header />;
 }
 
 export default App;
