@@ -4,6 +4,7 @@ import Menu from "../Componentes/Main";
 
 import styles from './home.module.scss'
 import Banner from '../Componentes/Banner';
+import Footer from "../Componentes/Footer";
 
 
 function Home (){
@@ -15,7 +16,9 @@ function Home (){
         <Menu/>
         <Banner/>
         </section>
+        
         </main>
+        <Footer/>
         </>
     )
 }
