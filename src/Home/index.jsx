@@ -1,10 +1,11 @@
 import Header from "../Componentes/Header";
 import Menu from "../Componentes/Main";
-
+import Banner from "../Componentes/Banner";
+import Galeria from "../Componentes/Gallery";
+import Footer from "../Componentes/Footer";
 
 import styles from './home.module.scss'
-import Banner from '../Componentes/Banner';
-import Footer from "../Componentes/Footer";
+
 
 
 function Home (){
@@ -18,6 +19,9 @@ function Home (){
         </section>
         
         </main>
+        <div>
+            <Galeria/>
+        </div>
         <Footer/>
         </>
     )
