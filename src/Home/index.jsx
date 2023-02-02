@@ -1,30 +1,29 @@
-import Header from "../Componentes/Header";
-import Menu from "../Componentes/Main";
-import Banner from "../Componentes/Banner";
-import Galeria from "../Componentes/Gallery";
-import Footer from "../Componentes/Footer";
+import styles from "./home.module.scss";
 
-import styles from './home.module.scss'
+import Header from "Componentes/Header";
+import Menu from "Componentes/Main";
+import Banner from "Componentes/Banner";
+import Galeria from "Componentes/Gallery";
+import Populares from "Componentes/Populares";
+import Footer from "Componentes/Footer";
 
-
-
-function Home (){
-    return (
-        <>
-        <Header />
-        <main>
-            <section className={styles.principal}>
-        <Menu/>
-        <Banner/>
+function Home() {
+  return (
+    <>
+      <Header />
+      <main>
+        <section className={styles.principal}>
+          <Menu />
+          <Banner />
         </section>
-        
-        </main>
         <div>
-            <Galeria/>
+          <Galeria />
+          <Populares />
         </div>
-        <Footer/>
-        </>
-    )
+      </main>
+      <Footer />
+    </>
+  );
 }
 
 export default Home;
