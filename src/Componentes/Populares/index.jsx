@@ -2,6 +2,7 @@ import React from "react";
 
 import styles from "./populares.module.scss";
 import fotosPopulares from "./fotos-populares.json";
+import Botao from "Componentes/Button";
 
 function Populares() {
   return (
@@ -16,7 +17,7 @@ function Populares() {
           );
         })}
       </ul>
-      <button>Ver mais fotos</button>
+      <Botao> Ver mais fotos</Botao>
     </aside>
   );
 }
