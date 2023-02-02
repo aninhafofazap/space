@@ -18,6 +18,19 @@
         display: flex;
         justify-content: space-between;
         cursor: pointer;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+
+            svg {
+                transition: 0.5s color;
+
+                &:hover {
+                    color: #c98cf1;
+                }
+            }
+        }
     }
 
     p {

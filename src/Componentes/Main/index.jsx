@@ -1,19 +1,21 @@
 import React from "react";
 // import home from '../../assets/icones/home.png'
-import styles from './main.module.scss'
- import icones from "./icones.json";
-import Icone from './Icones'
+import styles from "./main.module.scss";
+import icons from "./icons.json";
+import Icones from "./Icones";
 
-
-function Menu(){
-  console.log(icones)
-    return (
-        <nav className={styles.main}>
+function Menu() {
+  return (
+    <nav className={styles.main}>
+      {
         <ul className={styles.main__list}>
-          {icones.map(icone => (<Icone key={icone.id} icone={icone} style={styles}/>))}
+          {icons.map((icon) => (
+            <Icones key={icon.id} icone={icon} style={styles} />
+          ))}
         </ul>
+      }
     </nav>
-    )
+  );
 }
 
 export default Menu;
