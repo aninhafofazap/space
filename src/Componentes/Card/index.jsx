@@ -2,12 +2,12 @@ import React from "react";
 import open from "./open.png";
 import favorito from "./favorito.png";
 import styles from "./card.module.scss";
-import fotos from "./fotos.json";
+// import fotos from "./fotos.json";
 
-function Card() {
+function Card({ itens }) {
   return (
     <ul className={styles.cards}>
-      {fotos.map((foto) => {
+      {itens.map((foto) => {
         return (
           <li key={foto.id} className={styles.card}>
             <img

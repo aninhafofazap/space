@@ -16,7 +16,7 @@ function Home() {
           <Menu />
           <Banner />
         </section>
-        <div>
+        <div className={styles.gallery}>
           <Galeria />
           <Populares />
         </div>
