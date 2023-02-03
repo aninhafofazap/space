@@ -9,20 +9,18 @@ function Galeria() {
   const tags = [...new Set(fotos.map((valor) => valor.tag))];
 
   const filtrarFotos = (tag) => {
-    const novasFotos = itens.filter((foto) => {
-      console.log(foto);
+    const novasFotos = fotos.filter((foto) => {
       return foto.tag === tag;
     });
 
     setItens(novasFotos);
-    console.log(itens);
   };
+
   return (
     <section className={styles.galeria}>
       <h2>Navegue pela galeria</h2>
       <Tags tags={tags} filtrarFotos={filtrarFotos} setItens={setItens} />
       <Card itens={itens} />
-      {/* <>{console.log(filtrarFotos(itens))}</> */}
     </section>
   );
 }

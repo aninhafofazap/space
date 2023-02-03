@@ -1,70 +1,70 @@
 [
     {
         "titulo": "Galáxias",
-        "creditos": "Alura Space",
+        "creditos": "Lab Zone Space",
         "imagem": "/assets/image/galeria/foto-1.png",
         "id": "1",
         "tag": "Galáxias"
     },
     {
         "titulo": "Estrelas",
-        "creditos": "Alura Space",
+        "creditos": "Lab Zone Space",
         "imagem": "/assets/image/galeria/foto-2.png",
         "id": "2",
         "tag": "Estrelas"
     },
     {
         "titulo": "Lua",
-        "creditos": "Alura Space",
+        "creditos": "Lab Zone Space",
         "imagem": "/assets/image/galeria/foto-3.png",
         "id": "3",
         "tag": "Lua"
     },
     {
         "titulo": "Galáxias",
-        "creditos": "Alura Space",
+        "creditos": "Lab Zone Space",
         "imagem": "/assets/image/galeria/foto-4.png",
         "id": "4",
         "tag": "Galáxias"
     },
     {
         "titulo": "Estrelas",
-        "creditos": "Alura Space",
+        "creditos": "Lab Zone Space",
         "imagem": "/assets/image/galeria/foto-5.png",
         "id": "5",
         "tag": "Estrelas"
     },
     {
         "titulo": "Nebulosas",
-        "creditos": "Alura Space",
+        "creditos": "Lab Zone Space",
         "imagem": "/assets/image/galeria/foto-6.png",
         "id": "6",
         "tag": "Nebulosas"
     },
     {
         "titulo": "Galáxias",
-        "creditos": "Alura Space",
+        "creditos": "Lab Zone Space",
         "imagem": "/assets/image/galeria/foto-7.png",
         "id": "7",
         "tag": "Galáxias"
     },
     {
         "titulo": "Nebulosas",
-        "creditos": "Alura Space",
+        "creditos": "Lab Zone Space",
         "imagem": "/assets/image/galeria/foto-8.png",
         "id": "8",
         "tag": "Nebulosas"
     },
     {
         "titulo": "Estrelas",
-        "creditos": "Alura Space",
+        "creditos": "Lab Zone Space",
         "imagem": "/assets/image/galeria/foto-9.png",
         "id": "9",
         "tag": "Estrelas"
     },
     {
         "titulo": "Estrelas",
-        "creditos": "Alura Space",
+        "creditos": "Lab Zone Space",
         "imagem": "/assets/image/galeria/foto-10.png",
         "id": "10",
         "tag": "Estrelas"

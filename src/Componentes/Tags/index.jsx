@@ -13,7 +13,7 @@ function Tags({ tags, filtrarFotos, setItens }) {
               <li key={tag} onClick={() => filtrarFotos(tag)}>
                 {tag}
               </li>
-              {console.log(tag)}
+              {/* {console.log(tag)} */}
             </>
           );
         })}
