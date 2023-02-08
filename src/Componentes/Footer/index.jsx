@@ -1,5 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
+import { ImLab } from "react-icons/im";
 
 import styles from "./footer.module.scss";
 
@@ -15,6 +16,9 @@ function Rodape() {
         </a>
         <a href="https://twitter.com/AnaVickz">
           <FaTwitter size={24} />
+        </a>
+        <a href="https://labzone.com.br/">
+          <ImLab size={24} />
         </a>
       </div>
       <p>Desenvolvido por Ana Victória</p>

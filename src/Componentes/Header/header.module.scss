@@ -48,3 +48,13 @@
         cursor: pointer;
     }
 }
+
+
+@media screen and (max-width: 414px) {
+    .header {}
+
+    .header__container {
+        width: 60%;
+        margin: 0 auto;
+    }
+}

@@ -28,3 +28,17 @@
         }
     }
 }
+
+@media screen and (max-width: 414px) {
+    .tags p {
+        position: absolute;
+        top: 225px;
+        margin: 2rem 0;
+        display: flex;
+    }
+
+
+    .tags__list {
+        background-color: red;
+    }
+}

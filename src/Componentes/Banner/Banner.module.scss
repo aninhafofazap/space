@@ -22,3 +22,20 @@
         left: 44px;
     }
 }
+
+@media screen and (max-width: 414px) {
+    .banner {
+        width: 100%;
+        position: relative;
+
+        img {
+            width: 313px;
+            height: 140px;
+            left: 24px;
+        }
+
+        h1 {
+            display: none;
+        }
+    }
+}

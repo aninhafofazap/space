@@ -43,3 +43,9 @@
         font-family: "GandhiSansRegular"
     }
 }
+
+@media screen and (max-width: 414px) {
+    .main__list {
+        display: none;
+    }
+}
